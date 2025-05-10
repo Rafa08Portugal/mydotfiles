@@ -31,11 +31,11 @@ client.focused_inactive #5e5e5e #5e5e5e #ffffff #5e5e5e
 
 
 
-exec --no-startup-id feh --bg-scale /home/seven/Pictures/abstract.png
-exec --no-startup-id nvidia-settings --load-config-only  
+# exec --no-startup-id feh --bg-scale /home/seven/Pictures/abstract.png        #bg
+# exec --no-startup-id nvidia-settings --load-config-only  			#old nvidia settings
 exec --no-startup-id xset r rate 200 40 
-exec --no-startup-id ~/.screenlayout/file1.sh 
-exec --no-startup-id xinput set-prop 8 'Coordinate Transformation Matrix' 0.125 0 2310 0 0.125 472.5 0 0 1
+# exec --no-startup-id ~/.screenlayout/file1.sh 					#monitor setup
+# exec --no-startup-id xinput set-prop 8 'Coordinate Transformation Matrix' 0.125 0 2310 0 0.125 472.5 0 0 1  #mouse sens
 
 
 
